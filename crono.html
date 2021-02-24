@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Thais Hoshii">
+    <meta name="description" content="Projeto 001: Cronômetro">
+    <meta name="keywords" content="HTML, CSS, Javascript, projeto, cronometro">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="css/crono.css">
+    <title>Cronômetro</title>
+</head>
+<body>
+    <main class="interface">
+        <div class="campo-tempo">
+            <p class="tempo">
+                <span id="tempo-minutos">00</span>:<span id="tempo-segundos">00</span>:<span id="tempo-msegundos">000</span>
+            </p>
+        </div>
+        <div class="botoes">
+            <button class="botao" type="button" onclick="iniciarContagem()">Iniciar</button>
+            <button class="botao" type="button" onclick="pausarContagem()">Pausar</button>
+            <button class="botao" type="button" onclick="zerarContagem()">Zerar</button>
+        </div>
+    </main>
+    <script src="crono.js"></script>
+</body>
+</html>

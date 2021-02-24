@@ -1,0 +1,27 @@
+﻿ok    Criar a base do documento HTML.
+ok    Criar a base do documento CSS.
+ok    Criar a base do documento JavaScript.
+ok    Fazer referência ao documento “reset.css” dentro do HTML.
+ok    Criar a interface do cronômetro.
+ok    Testar o tamanho da interface e a visibilidade.
+ok    Testar a distância entre interface visual e o canto superior da tela.
+ok    Centralizar horizontalmente a interface visual na tela.
+ok    Criar o (protótipo) campo de tempo.
+ok    Criar os (protótipos) botões de início, pausa e zerar.
+ok    Testar o tamanho da fonte do campo de tempo.
+ok    Estabelecer o formato campo de tempo em {minutos:segundos:milissegundos}.
+ok    Usar um valor válido de tempo para testar a saída no campo de tempo: “o valor que aparece no campo de tempo é igual ao valor criado?”
+ok    Programar uma contagem progressiva e testar a saída no campo de tempo: “o valor no campo de tempo é atualizado conforme a contagem?”
+ok    Programar um limite máximo para o valor de tempo e uma forma de zerá-lo.
+ok    Regular o código da contagem progressiva para contar exatamente os milissegundos, segundos e minutos.
+ok    Programar o código da contagem para obedecer dois estados, [parada] e [ativa].
+ok    Programar as funcionalidades dos botões e testar: “os botões funcionam como o esperado?”
+ok    Verificar se os botões funcionam em condições inesperadas.
+ok    Verificar se o navegador não fica sobrecarregado após longo período de tempo com o cronômetro [ativo].
+ok    Estabelecer paramêtros de visualização para mobile.
+ok    Criar configurações para modo retrato em configuração mobile.
+ok    Remover fundo circular em configuração mobile.
+ok    Deixar campo de tempo transparente em configuração mobile.
+ok    Impedir mudança de orientação em configuração mobile.
+ok    Ajustar aparência final do cronômetro em configuração mobile.
+ok    Ajustar aparência final do cronômetro em configuração desktop.

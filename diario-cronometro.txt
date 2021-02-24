@@ -1,0 +1,40 @@
+21/06/2020:
+
+- início do projeto 001: cronômetro
+
+- criação do arquivo 'projeto-cronometro.odt'
+
+
+23/06/2020:
+
+- criação dos arquivos 'crono.html', 'crono.css', 'crono.js', 'tarefas-cronometro.txt' e 'diario-cronometro.txt'
+
+- tarefas de 1 a 13 concluídas (ver 'tarefas-cronometro.txt')
+
+- problema 001: o código que conta os milissegundos não funciona como intencionado (cronômetro era atualizado em tempo irregular e apresentava problemas) e será necessário procurar soluções
+
+
+25/06/2020:
+
+- solução ao problema 001: encontrei um código que rapidamente solucionou o problema mencionado, então decidi usá-lo e deixar o código antigo como comentário para referência futura (link: https://stackoverflow.com/questions/53000446/javascript-stopwatch-with-millisecond-increments)
+
+- tarefas de 14 a 20 concluídas (ver 'tarefas-cronometro.txt')
+
+
+28/06/2020:
+
+- atualização dos arquivos 'projeto-cronometro.odt' e 'tarefas-cronometro.txt'
+
+
+29/06/2020:
+
+- tarefas de 21 a 23 concluídas (ver 'tarefas-cronometro.txt')
+
+
+01/07/2020:
+
+- atualização dos arquivos 'projeto-cronometro.odt' e 'tarefas-cronometro.txt'
+
+- tarefas de 24 a 27 concluídas (ver 'tarefas-cronometro.txt')
+
+- conclusão do projeto 001: cronômetro

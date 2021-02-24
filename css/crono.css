@@ -1,0 +1,96 @@
+/* Para dispositivos moveis na vertical */
+body {
+    background-color: #aaaaaa;
+}
+
+/* Campo de tempo, que mostra a contagem */
+.campo-tempo {
+    text-align: center;
+    margin: 35% 0 15% 0;
+}
+
+.tempo {
+    font-size: 4.5em;
+}
+
+/* Botoes do cronometro */
+.botao {
+    width: 160px;
+    height: 80px;
+    background-color: #bb4444;
+    color: #eeeeee;
+    font-size: 1.2em;
+    display: block;
+    margin: 2em auto;
+    border-radius: 50%;
+    text-transform: uppercase;
+    border: 4px solid #993333;
+}
+
+.botao:active {    
+    color: #bbbbbb;
+    background-color: #993333;
+    border: 4px solid #bb4444;
+}
+
+@media only screen and (max-height: 431px) and (orientation: landscape) {
+
+    /* Para dispositivos moveis na horizontal */
+    body {
+        height: 100vw;
+        transform: rotate(90deg);
+    }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 432px) {
+    /* Para desktop */
+    body {
+        background-color: #ffffff;
+    }
+
+    .interface {
+        width: 360px;
+        height: 360px;
+        background-color: #aaaaaa;
+        border-radius: 50%;
+        padding: 110px 0 0;
+        margin: 40px auto 0;
+        box-sizing: border-box;
+        box-shadow: 3px 3px 2px #444444;
+    }
+
+    /* Campo de tempo, que mostra a contagem do cronometro */
+    .campo-tempo {
+        height: 4em;
+        width: 17.5em;
+        background-color: #222222;
+        border-radius: 3px;
+        margin: 0 auto;
+        border: 4px ridge #335533;
+    }
+
+    .tempo {
+        font-size: 4em;
+        color: #dddddd;
+    }
+
+    /* Botoes do cronometro */
+    .botoes {
+        width: 270px;
+        margin: 25px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botao {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .botao:hover {
+        filter: brightness(120%);
+    }
+}
