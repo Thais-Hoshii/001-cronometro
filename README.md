@@ -1,2 +1,2 @@
-# cronometro
-A simple stopwatch that calculates minutes, seconds and milisseconds from the press of a button.
+# Miniprojeto 001: Cronômetro
+Um simples cronômetro que conta os minutos, segundos e milissegundos a partir do pressionar de um botão.
