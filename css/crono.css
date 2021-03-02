@@ -1,3 +1,13 @@
+/* Formatação para resetar configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    font: inherit;
+}
+
 /* Para dispositivos moveis na vertical */
 body {
     background-color: #aaaaaa;
